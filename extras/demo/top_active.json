@@ -1,0 +1,17 @@
+[
+  {
+    "student_id": 5,
+    "name": "Vishal Patel",
+    "attended": 4
+  },
+  {
+    "student_id": 2,
+    "name": "Isha Patel",
+    "attended": 3
+  },
+  {
+    "student_id": 3,
+    "name": "Rohan Mehta",
+    "attended": 3
+  }
+]

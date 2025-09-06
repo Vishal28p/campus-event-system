@@ -1,0 +1,116 @@
+{
+  "info": {
+    "name": "Webknot Campus Event System - Examples",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/health",
+          "host": [
+            "http://localhost:5000"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Popular Events",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/reports/popularity",
+          "host": [
+            "http://localhost:5000"
+          ],
+          "path": [
+            "reports",
+            "popularity"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Event Metrics (1)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/reports/event/1",
+          "host": [
+            "http://localhost:5000"
+          ],
+          "path": [
+            "reports",
+            "event",
+            "1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Register Student",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"student_id\": 1, \"event_id\": 1}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/register"
+        }
+      }
+    },
+    {
+      "name": "Mark Attendance",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"student_id\": 1, \"event_id\": 1, \"status\": \"present\"}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/attendance"
+        }
+      }
+    },
+    {
+      "name": "Give Feedback",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"student_id\": 1, \"event_id\": 1, \"rating\": 5}"
+        },
+        "url": {
+          "raw": "http://localhost:5000/feedback"
+        }
+      }
+    }
+  ]
+}

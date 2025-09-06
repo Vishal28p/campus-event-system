@@ -1,0 +1,50 @@
+[
+  {
+    "event_id": 1,
+    "title": "Intro to GenAI",
+    "type": "Seminar",
+    "date": "2025-09-15",
+    "college_id": 1,
+    "total_registrations": 7
+  },
+  {
+    "event_id": 4,
+    "title": "Data Hack 24h",
+    "type": "Hackathon",
+    "date": "2025-09-25",
+    "college_id": 1,
+    "total_registrations": 6
+  },
+  {
+    "event_id": 2,
+    "title": "Full-Stack Workshop",
+    "type": "Workshop",
+    "date": "2025-09-18",
+    "college_id": 1,
+    "total_registrations": 5
+  },
+  {
+    "event_id": 3,
+    "title": "Acharya Tech Fest",
+    "type": "Fest",
+    "date": "2025-10-01",
+    "college_id": 1,
+    "total_registrations": 5
+  },
+  {
+    "event_id": 5,
+    "title": "Resume Clinic",
+    "type": "Workshop",
+    "date": "2025-09-12",
+    "college_id": 2,
+    "total_registrations": 5
+  },
+  {
+    "event_id": 6,
+    "title": "Cloud Tech Talk",
+    "type": "Tech Talk",
+    "date": "2025-09-20",
+    "college_id": 2,
+    "total_registrations": 5
+  }
+]

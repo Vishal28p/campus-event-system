@@ -1,0 +1,7 @@
+event_id,title,type,date,college_id,total_registrations
+1,Intro to GenAI,Seminar,2025-09-15,1,7
+4,Data Hack 24h,Hackathon,2025-09-25,1,6
+2,Full-Stack Workshop,Workshop,2025-09-18,1,5
+3,Acharya Tech Fest,Fest,2025-10-01,1,5
+5,Resume Clinic,Workshop,2025-09-12,2,5
+6,Cloud Tech Talk,Tech Talk,2025-09-20,2,5
